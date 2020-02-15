@@ -21,6 +21,7 @@ body {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 .movies-list {
   display: flex;
@@ -31,4 +32,6 @@ body {
 }
 .movies-list img {
   width: 220px;
+  object-fit: contain;
+  object-position: center;
 }
